@@ -1,4 +1,7 @@
 pipeline {
+	tools {
+  git 'Default'
+		}
 	agent {
 		docker {
 			image 'composer:latest'
